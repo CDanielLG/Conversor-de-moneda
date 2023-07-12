@@ -16,35 +16,34 @@ public class Temperatura extends JPanel {
 	public Temperatura() {
 		setLayout(null);
 		
-		JLabel lblConversinDeTemperatura = new JLabel("TEMPERATURA");
-		lblConversinDeTemperatura.setBounds(45, 26, 333, 24);
-		lblConversinDeTemperatura.setFont(new Font("Arial", Font.BOLD, 20));
-		add(lblConversinDeTemperatura);
+		JLabel lblNewLabel = new JLabel("CONVERTIR");
+		lblNewLabel.setBounds(48, 88, 122, 28);
+		add(lblNewLabel);
 		
-		JLabel lblNewLabel_1_1 = new JLabel("Convertir");
-		lblNewLabel_1_1.setBounds(45, 84, 113, 26);
-		add(lblNewLabel_1_1);
-		
-		JLabel lblNewLabel_1 = new JLabel("A");
-		lblNewLabel_1.setBounds(45, 173, 15, 26);
-		add(lblNewLabel_1);
+		JLabel lblConversinDeMoneda = new JLabel("TEMPERATURA");
+		lblConversinDeMoneda.setFont(new Font("Arial", Font.BOLD, 20));
+		lblConversinDeMoneda.setBounds(48, 22, 333, 24);
+		add(lblConversinDeMoneda);
 		
 		textField = new JTextField();
-		textField.setColumns(10);
-		textField.setBounds(45, 128, 86, 20);
+		textField.setBounds(48, 137, 86, 20);
 		add(textField);
+		textField.setColumns(10);
 		
-		JLabel resultado = new JLabel("");
-		resultado.setBackground(new Color(0, 0, 0));
-		resultado.setBounds(156, 199, 65, 14);
-		add(resultado);
+		JLabel lblA = new JLabel("A");
+		lblA.setBounds(48, 168, 122, 28);
+		add(lblA);
 		
-		JComboBox comboBox_1_1 = new JComboBox();
-		comboBox_1_1.setBounds(156, 128, 122, 22);
-		add(comboBox_1_1);
+		JLabel lblNewLabel_1 = new JLabel("");
+		lblNewLabel_1.setBounds(215, 202, 70, 20);
+		add(lblNewLabel_1);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setBounds(48, 207, 122, 22);
+		add(comboBox);
 		
 		JComboBox comboBox_1 = new JComboBox();
-		comboBox_1.setBounds(45, 210, 122, 22);
+		comboBox_1.setBounds(163, 136, 122, 22);
 		add(comboBox_1);
 
 	}

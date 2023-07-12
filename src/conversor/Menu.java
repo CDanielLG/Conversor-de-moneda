@@ -20,6 +20,7 @@ import java.awt.BorderLayout;
 import java.awt.Button;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
+import javax.swing.JLabel;
 
 public class Menu extends JFrame {
 
@@ -124,6 +125,17 @@ public class Menu extends JFrame {
 	
 		content.setBounds(176, 87, 502, 305);
 		contentPane.add(content);
+		content.setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("BIENVENIDO A SU \r\nCONVERSOR DE \r\nUNIDADES");
+		lblNewLabel.setFont(new Font("Arial", Font.BOLD, 20));
+		lblNewLabel.setBounds(20, 11, 482, 104);
+		content.add(lblNewLabel);
+		
+		JLabel lblElijaUnaUnidad = new JLabel("ELIJA UNA UNIDAD PARA COMENZAR");
+		lblElijaUnaUnidad.setFont(new Font("Arial", Font.BOLD, 20));
+		lblElijaUnaUnidad.setBounds(58, 73, 492, 104);
+		content.add(lblElijaUnaUnidad);
 
 		Temperatura temperatura = new Temperatura();
 		Volumen volumen = new Volumen();

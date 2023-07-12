@@ -16,40 +16,35 @@ public class Volumen extends JPanel {
 	public Volumen() {
 		setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel("CONVERSIÓN DE VOLUMEN");
-		lblNewLabel.setFont(new Font("Arial", Font.BOLD, 20));
-		lblNewLabel.setBounds(70, 5, 370, 41);
+		JLabel lblNewLabel = new JLabel("CONVERTIR");
+		lblNewLabel.setBounds(48, 88, 122, 28);
 		add(lblNewLabel);
 		
-		JLabel lblNewLabel_1_1 = new JLabel("Convertir ");
-		lblNewLabel_1_1.setBounds(54, 75, 113, 26);
-		add(lblNewLabel_1_1);
-		
-		JComboBox comboBox = new JComboBox();
-		comboBox.setBounds(159, 105, 83, 22);
-		add(comboBox);
-		
-		JComboBox comboBox_1 = new JComboBox();
-		comboBox_1.setBounds(54, 196, 83, 22);
-		add(comboBox_1);
+		JLabel lblConversinDeMoneda = new JLabel("VOLUMEN");
+		lblConversinDeMoneda.setFont(new Font("Arial", Font.BOLD, 20));
+		lblConversinDeMoneda.setBounds(48, 22, 333, 24);
+		add(lblConversinDeMoneda);
 		
 		textField = new JTextField();
-		textField.setBounds(54, 106, 86, 20);
+		textField.setBounds(48, 137, 86, 20);
 		add(textField);
 		textField.setColumns(10);
 		
-		JLabel resultado = new JLabel("");
-		resultado.setBackground(new Color(255, 255, 255));
-		resultado.setBounds(268, 143, 46, 14);
-		add(resultado);
-		
-		JLabel lblNewLabel_1_1_1 = new JLabel("A");
-		lblNewLabel_1_1_1.setBounds(54, 149, 113, 26);
-		add(lblNewLabel_1_1_1);
+		JLabel lblA = new JLabel("A");
+		lblA.setBounds(48, 168, 122, 28);
+		add(lblA);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setBounds(176, 200, 46, 14);
+		lblNewLabel_1.setBounds(215, 202, 70, 20);
 		add(lblNewLabel_1);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setBounds(48, 207, 122, 22);
+		add(comboBox);
+		
+		JComboBox comboBox_1 = new JComboBox();
+		comboBox_1.setBounds(163, 136, 122, 22);
+		add(comboBox_1);
 
 	}
 }

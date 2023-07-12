@@ -15,35 +15,35 @@ public class Longitud extends JPanel {
 	public Longitud() {
 		setLayout(null);
 		
-		JLabel lblNewLabel_1_1 = new JLabel("Convertir");
-		lblNewLabel_1_1.setBounds(32, 118, 45, 14);
-		add(lblNewLabel_1_1);
+		JLabel	lblNewLabel = new JLabel("CONVERTIR");
+		lblNewLabel.setBounds(48, 88, 122, 28);
+		add(lblNewLabel);
 		
-		JLabel lblNewLabel_1 = new JLabel("A");
-		lblNewLabel_1.setBounds(32, 194, 33, 14);
-		add(lblNewLabel_1);
-		
-		JLabel lblConversinDeLongitud = new JLabel("LONGITUD\r\n");
-		lblConversinDeLongitud.setBounds(167, 25, 370, 24);
-		lblConversinDeLongitud.setFont(new Font("Arial", Font.BOLD, 20));
-		add(lblConversinDeLongitud);
-		
-		JComboBox comboBox = new JComboBox();
-		comboBox.setBounds(137, 142, 83, 22);
-		add(comboBox);
+		JLabel lblConversinDeMoneda = new JLabel("LONGITUD");
+		lblConversinDeMoneda.setFont(new Font("Arial", Font.BOLD, 20));
+		lblConversinDeMoneda.setBounds(48, 22, 333, 24);
+		add(lblConversinDeMoneda);
 		
 		textField = new JTextField();
-		textField.setColumns(10);
-		textField.setBounds(32, 143, 86, 20);
+		textField.setBounds(48, 137, 86, 20);
 		add(textField);
+		textField.setColumns(10);
+		
+		JLabel lblA = new JLabel("A");
+		lblA.setBounds(48, 168, 122, 28);
+		add(lblA);
+		
+		JLabel lblNewLabel_1 = new JLabel("");
+		lblNewLabel_1.setBounds(215, 202, 70, 20);
+		add(lblNewLabel_1);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setBounds(48, 207, 122, 22);
+		add(comboBox);
 		
 		JComboBox comboBox_1 = new JComboBox();
-		comboBox_1.setBounds(35, 219, 83, 22);
+		comboBox_1.setBounds(163, 136, 122, 22);
 		add(comboBox_1);
-		
-		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setBounds(140, 223, 46, 14);
-		add(lblNewLabel);
 
 	}
 
