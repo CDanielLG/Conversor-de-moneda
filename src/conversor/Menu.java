@@ -138,8 +138,7 @@ public class Menu extends JFrame {
 		});
 
 		Temperatura temperatura = new Temperatura();
-		Volumen volumen = new Volumen();
-		Longitud longitud = new Longitud();
+	
 
 	}
 
