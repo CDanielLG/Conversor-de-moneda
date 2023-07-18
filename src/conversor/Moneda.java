@@ -67,7 +67,7 @@ public class Moneda extends JPanel {
 
 		cantidad.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
+				actualizarResultado();
 			}
 		});
 
@@ -86,7 +86,7 @@ public class Moneda extends JPanel {
 		add(opcionesConvertir);
 		opcionesConvertir.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
+				actualizarResultado();
 			}
 		});
 
@@ -131,7 +131,7 @@ public class Moneda extends JPanel {
 		
 		opcionesConversion.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
+				actualizarResultado();
 			}
 		});
 	}
