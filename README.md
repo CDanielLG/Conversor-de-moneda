@@ -9,6 +9,7 @@ Esta aplicación de conversión de moneda y temperatura te permite realizar conv
 
 - **Conversión de Moneda**: Obtén las tasas de cambio en tiempo real mediante un API y convierte entre 6 monedas diferentes: [Lista de monedas disponibles].
 - **Conversión de Temperatura**: Convierte entre las unidades de temperatura más comunes, como Celsius, Fahrenheit y Kelvin.
+- **Errores: Si no se mete un valor en cantidad y se intenta convertir, el resultado sera un : error de conversión. Si se intenta poner palabras en lugar de numeros, el resultado sera un error de covnersion.
 
 ## Capturas de pantalla
 ![image](https://github.com/CDanielLG/Conversor-de-moneda/assets/109630038/2b2cf8d1-defe-4be3-9d54-90cd197e5809)
